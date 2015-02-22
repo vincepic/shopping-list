@@ -1,0 +1,119 @@
+body{
+	background-color: #f8f7f3;
+	padding: 4em 15em 10em 15em;
+}
+
+#content{
+	height: auto;
+	width: 100%;
+	margin: 0 auto;
+	background-color: white;
+	border-radius: 0 2em 0 2em;
+	-webkit-border-radius: 0 2em 0 2em;
+	-moz-border-radius: 0 2em 0 2em;
+	box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+#masthead{
+	margin-bottom: 1em;
+	position: relative;
+	top: 0;
+}
+
+#input{
+	position: absolute;
+	bottom: 0;
+	right: 28.7em;
+	border-radius: .8em;
+	-webkit-border-radius: .8em;
+	-moz-border-radius: .8em;
+}
+
+#masthead .addButton .addPress{
+	width: 35px;
+	height: 25px;
+	position: absolute;
+	top: 1em;
+	right: 1.5em;
+	opacity: 0.6;
+}
+
+#masthead .addButton .addPress:hover{
+	opacity: 1;
+}
+
+#masthead h1{
+	padding: 1em;
+	padding-bottom: 2em;
+	text-align: center;
+	font-family: Maven Pro, sans-serif;
+	font-size: 1em;
+	font-weight: 700;
+}
+
+#list{
+	width: 50%;
+	height: 35em;
+	margin: 0 auto;
+	position: relative;
+	overflow: auto;
+}
+
+#listItems{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	list-style: none;
+	overflow: auto;
+}
+
+.complete{
+	text-decoration: line-through;;
+}
+
+.inactive{
+	display: none;
+}
+
+.delete{
+	display: none;
+}
+
+.hr{
+	border-top: 1px solid black;
+}
+
+.strike{
+	position: absolute;
+	right: 0;
+	color: grey;
+	opacity: 0.2;
+	cursor: pointer;
+}
+
+.strike:hover{
+	opacity: 0.4;
+}
+
+#listFooter{
+	padding-top: 1em;
+	position: relative;
+	bottom: 0;
+}
+
+#listFooter .clearButton .clearPress{
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	bottom: 0.8em;
+	left: 0.9em;
+	opacity: 0.6;
+}
+
+#listFooter .clearButton .clearPress:hover{
+	opacity: 1;
+}
+
+
